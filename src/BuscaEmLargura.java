@@ -7,7 +7,8 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 
 public class BuscaEmLargura {
 
-	static class Vertice {
+	static class Vertice 
+	{
 		int valor;
 		boolean visitado = false; // inicia todo Nó como não-visitado
 		List<Vertice> vertices = new ArrayList<>();
