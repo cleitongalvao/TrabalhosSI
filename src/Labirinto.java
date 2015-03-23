@@ -19,7 +19,7 @@ public class Labirinto
 	}
 	
 	
-	private static void iniciaProcuraCaminho(int[][] Matriz, int coluna, int linha) 
+	private static void iniciaProcuraCaminho(int[][] Matriz, int colInicio, int linInicio) 
 	{
 		
 	}
@@ -40,7 +40,7 @@ public class Labirinto
 			for (int j=0; j < colunas;j++)
 			{				
 				//l = sc.nextInt(); 
-				m[j][i] = sc.nextInt();;
+				m[j][i] = sc.nextInt();
 				System.out.print(m[j][i]+"");			
 			}
 			System.out.println("\n");
