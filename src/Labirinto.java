@@ -15,6 +15,7 @@ public class Labirinto
 		sc = new Scanner(System.in);
 		lerMatriz(100,30);
 		iniciaProcuraCaminho(m, 93, 29);
+		//No caminho;
 		//Comentário
 	}
 	
