@@ -15,11 +15,12 @@ public class Labirinto
 		sc = new Scanner(System.in);
 		lerMatriz(100,30);
 		iniciaProcuraCaminho(m, 93, 29);
+		//Comentário
 	}
 	
 	
-	private static void iniciaProcuraCaminho(int[][] Matriz, int coluna, int linha) {
-		// TODO Auto-generated method stub
+	private static void iniciaProcuraCaminho(int[][] Matriz, int coluna, int linha) 
+	{
 		
 	}
 
